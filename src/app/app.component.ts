@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directiveAllCoverConcept';
+  myColor = '';
+  showCpIf=true;
+  showCpDelay = false;
+   delayInSec = 0;
+   
+   changeCondition(flag: boolean) {
+    console.log(this.showCpIf = flag);
+      
+   }
 }

@@ -1,0 +1,22 @@
+<p>ng-plural works!</p>
+<h3>Exmple-1</h3>
+<div [ngPlural]="itemNum">
+    <ng-template ngPluralCase="0"> There is nothing </ng-template>
+    <ng-template ngPluralCase="1"> There is one </ng-template>
+    <ng-template ngPluralCase="other"> There is other </ng-template>
+
+</div>
+<h3>Exmple-2</h3>
+<div [ngPlural]="person">
+    <ng-template ngPluralCase="0"> There is nothing </ng-template>
+    <ng-template ngPluralCase="1"> There is one </ng-template>
+    <ng-template ngPluralCase="other"> There is other </ng-template>
+
+</div>
+<h3>Exmple-3</h3>
+<div [ngPlural]="mintues">
+    <ng-template ngPluralCase="0"> There is nothing </ng-template>
+    <ng-template ngPluralCase="1"> There is one </ng-template>
+    <ng-template ngPluralCase="other"> There is other </ng-template>
+
+</div>
